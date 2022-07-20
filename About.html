@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acadwe</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="acadwe.html"> <img src="images/logo.png" alt="" srcset="">  </a>
+            <div class="nav-links" id="navlinks" >
+                <i class="fa fa-window-close" aria-hidden="true" onclick="hidemenu()" ></i>
+
+                <ul>
+                    <li> <a href="acadwe.html"> HOME</a></li>
+                    <li> <a href="About.html"> ABOUT</a></li>
+                    <li> <a href="Course.html"> COURSE</a></li>
+                    <li> <a href="Blog.html"> BLOG</a></li>
+                    <li> <a href="Contact.html"> CONTACT</a></li>
+                </ul>
+                </ul>
+            </div>
+            
+               <i class="fa fa-bars" onclick="showmenu()" ></i>
+             
+           
+           
+          
+        </nav>
+
+                <h1>About Us</h1>
+        </section>
+
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1> We are the world largest Universty </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum adipisci at voluptatibus vero aut explicabo rem soluta, repellat ipsa? Eaque quaerat asperiores eum atque voluptatum harum deleniti autem rerum a!Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum adipisci at voluptatibus vero aut explicabo rem soluta, repellat ipsa? Eaque quaerat asperiores eum atque voluptatum harum deleniti autem rerum a!</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/about.jpg" alt="" srcset="">
+                </div>
+            </div>
+
+        </section>
+    
+
+
+
+           <!---Footer--->  
+
+           <section class="footer">
+
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perferendis reprehenderit repellat temporibus enim saepe molestiae provident, iste <br> voluptatibus nobis sequi cumque corporis velit, quam sunt nesciunt asperiores placeat. Neque!</p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                
+            </div>
+
+            <p>Made with  <i class="fa fa-heart"></i> Nikhil Khandelwal</p>
+
+           </section>
+
+
+
+
+    <!---javasscript for troggle menu--->   
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
